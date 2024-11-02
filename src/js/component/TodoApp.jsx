@@ -43,7 +43,7 @@ const TodoApp = () => {
             <>
            
                 <li key={index} className="tarea-item">
-                    ✍{element} <span  className="Borrar-icono" onClick={() => handleBorrarTarea(index)}>X</span>
+                    ✍{element} <span  className="Borrar-icono" onClick={() => handleBorrarTarea(index)}><i class="fas fa-trash"></i></span>
                </li> 
                <hr />
              </>
